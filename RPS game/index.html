@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">    
+    <meta name="description" content="Rock Paper Scissors game">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="local/css/style.css">
+    <link rel="stylesheet" type="text/css" href="local/css/queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <section class="board">
+        <div class="player1-score active">
+            <h2 id="p1" >Player 1 </h2>
+            <span class="score" id="score-1">0</span>
+        </div>
+        <div class="game-length">          
+            <h2 id="length">Set winning score</h2>
+            <input type="number" id="length-input" value="1">
+            <button class="button" id="set" onclick="winningScore(), myPlay()">Set</button>
+       </div>
+        <div class="player2-score">
+            <h2 id="p2">Player 2 </h2>
+            <span class="score" id="score-2">0</span>
+        </div>
+        <div class="p1-btn" id="p1-btn">
+            <button class="button" id="button1" onclick="p1(), myPlay()" href="#">Click me</button>
+        </div>
+        <div class="p2-btn" id="p2-btn">
+            <button class="button" id="button2" onclick="comparison(), myPlay()" href="#">Click me</button>
+        </div>        
+        <div class="new-game">
+            <button class="button" id="new-game" onclick="init(), myPlay()"  href="#">New game</button>
+        </div>   
+        <div class="battle-field">
+           <div class="weapon">
+                <img class="img-p1" id="p1-weapon-1" src="local/images/weapon-1.png" alt="rock">
+                <img class="img-p1" id="p1-weapon-2" src="local/images/weapon-2.png" alt="paper">
+                <img class="img-p1" id="p1-weapon-3" src="local/images/weapon-3.png" alt="scissors">
+                <img class="img-p2" id="p2-weapon-1" src="local/images/weapon-1.png" alt="rock">
+                <img class="img-p2" id="p2-weapon-2" src="local/images/weapon-2.png" alt="paper">
+                <img class="img-p2" id="p2-weapon-3" src="local/images/weapon-3.png" alt="scissors">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>
+            Copyright &copy; 2020 by Aleksandr Drozdov. <br> Sound effects obtained from https://www.zapsplat.com
+        </span>
+    </footer>
+    <script src="local/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+ @media (min-width: 2560px) {
+
+
+    html {
+        font-size: 95%; 
+    }
+
+} 
+
+
+@media (max-width: 1024px )  {
+
+    html {
+        font-size: 50%; 
+    }
+
+    section {
+        width: 90%;
+    }
+
+}
+
+
+
+
+ @media (max-width: 768px) {
+
+    html {
+        font-size: 25%; 
+    }
+
+    header {
+        margin-top: 5%
+    }
+
+    section {
+        max-height: 42%;
+    }
+
+
+}
+ 
+
+@media (max-width: 490px) {
+
+    html {
+        font-size: 20%; 
+    }
+
+    section {
+        max-height: 40%;
+    }
+
+    .active.battle-field {
+        max-width: 100%;
+        max-height: 60%;
+    }
+
+    img {
+        height: 25%;
+    }
+    
+
+} 
+
+@media (max-width: 850px ) and (orientation: landscape) {
+
+    html {
+        font-size: 30%; 
+    }
+
+    section {
+        max-width: 90%;
+        max-height: 75%;
+
+    }
+
+    header {
+        margin-top: 1rem
+    }
+
+}
+
+@media (max-width: 800px ) and (orientation: landscape) {
+
+    html {
+        font-size: 20%; 
+    }
+
+    section {
+        max-width: 90%;
+        max-height: 75%;
+
+    }
+
+    header {
+        margin-top: 1rem
+    }
+
+}
+
+
+
+ @media (max-width: 375px) {
+
+    html {
+        font-size: 18%; 
+    }
+
+    img {
+        height: 20%;
+    }
+    
+}
+
+
+
+ 
